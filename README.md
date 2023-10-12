@@ -10,7 +10,7 @@ Feel free to explore the scripts and guides provided in this repository to get s
 Ready to simplify your Docker installation process? Let's dive into the world of automation!
 
 
-# Tapette à bug :
+# Bug catcher :
  - Bug-CATCHER_v1
 
 # Installing Docker : 
