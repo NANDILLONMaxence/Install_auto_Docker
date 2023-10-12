@@ -1,19 +1,20 @@
 # Docker
 Docker-BTS-SIO-SISR
 
-Bienvenue sur mon référentiel Github dédié à l'automatisation de l'installation de Docker, une technologie essentielle pour la gestion de conteneurs. Ici, vous trouverez un ensemble de scripts et de ressources conçus pour simplifier et accélérer le processus d'installation de Docker sur diverses plateformes (Principalement Linux). Que vous soyez un développeur, un administrateur système ou un passionné de conteneurs, ce référentiel a pour but de faciliter la mise en place de Docker, vous faisant gagner du temps et des efforts.
+Welcome to my Github repository dedicated to automating the installation of Docker, an essential technology for container management. Here you'll find a set of scripts and resources designed to simplify and speed up the process of installing Docker on various platforms (Mainly Linux). Whether you're a developer, a system administrator or a container enthusiast, this repository aims to make Docker setup easier, saving you time and effort.
 
-L'automatisation de l'installation de Docker est cruciale pour garantir une configuration uniforme, éviter les erreurs humaines et simplifier le déploiement d'applications basées sur des conteneurs. Les scripts fournis ici sont conçus pour fonctionner de manière transparente sur différentes distributions Linux et d'autres systèmes d'exploitation, vous permettant de vous concentrer sur le développement et la gestion de vos applications.
+Automating Docker installation is crucial to ensuring consistent configuration, avoiding human error and simplifying the deployment of container-based applications. The scripts provided here are designed to work seamlessly on different Linux distributions and other operating systems, allowing you to concentrate on developing and managing your applications.
 
-N'hésitez pas à explorer les scripts et les guides fournis dans ce référentiel pour démarrer rapidement avec Docker et profiter de ses avantages en matière de développement, de déploiement et de gestion d'applications. Si vous avez des questions ou des suggestions, n'hésitez pas à les partager. Votre contribution et votre expertise sont les bienvenues.
+Feel free to explore the scripts and guides provided in this repository to get started quickly with Docker and take advantage of its benefits for application development, deployment and management. If you have any questions or suggestions, please don't hesitate to share them. We welcome your input and expertise.
 
-Prêt à simplifier votre processus d'installation de Docker ? Plongeons dans le monde de l'automatisation !
+Ready to simplify your Docker installation process? Let's dive into the world of automation!
+
 
 # Tapette à bug :
  - Bug-CATCHER_v1
 
-# Installation de Docker : 
+# Installing Docker : 
  - 001_Install_Docker_v1.sh
 
-Commande d'installation :
+Command ontrol :
 Curl -o https://github.com/NANDILLONMaxence/Docker/blob/226f69985cd558da9b4b6b07a9352e1e242a6796/001_Install_Docker_v1.sh
