@@ -9,7 +9,7 @@ N'hésitez pas à explorer les scripts et les guides fournis dans ce référenti
 
 Prêt à simplifier votre processus d'installation de Docker ? Plongeons dans le monde de l'automatisation !
 
-# Patch ERROR
+# Tapette à bug : 
  - Bug-CATCHER_v1
 
 # Installation de Docker : 
