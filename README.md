@@ -8,3 +8,9 @@ L'automatisation de l'installation de Docker est cruciale pour garantir une conf
 N'hésitez pas à explorer les scripts et les guides fournis dans ce référentiel pour démarrer rapidement avec Docker et profiter de ses avantages en matière de développement, de déploiement et de gestion d'applications. Si vous avez des questions ou des suggestions, n'hésitez pas à les partager. Votre contribution et votre expertise sont les bienvenues.
 
 Prêt à simplifier votre processus d'installation de Docker ? Plongeons dans le monde de l'automatisation !
+
+# Patch ERROR
+ - Bug-CATCHER_v1
+
+# Installation de Docker : 
+ - 001_Install_Docker_v1.sh
