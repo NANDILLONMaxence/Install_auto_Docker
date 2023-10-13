@@ -17,4 +17,4 @@ Ready to simplify your Docker installation process? Let's dive into the world of
  - 001_Install_Docker_v1.sh
 
 Command control :
-Curl -O https://github.com/NANDILLONMaxence/Docker/blob/226f69985cd558da9b4b6b07a9352e1e242a6796/001_Install_Docker_v1.sh
+curl -O https://github.com/NANDILLONMaxence/Docker/blob/226f69985cd558da9b4b6b07a9352e1e242a6796/001_Install_Docker_v1.sh
