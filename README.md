@@ -13,10 +13,10 @@ Ready to simplify your Docker installation process? Let's dive into the world of
 # Bug catcher :
  - Bug-CATCHER_v1
  Command control :
-curl -LO [https://github.com/NANDILLONMaxence/Docker/blob/a786306d1dc4903c3db0b89202648a24536bb359/Bug-CATCHER_v1.sh](https://github.com/NANDILLONMaxence/Docker/blob/a786306d1dc4903c3db0b89202648a24536bb359/Bug-CATCHER_v1.sh)
+curl -LO [ file link 000_Bug-CATCHER_sh ]
 
 # Installing Docker : 
  - 001_Install_Docker_v1.sh
 
 Command control :
-curl -O https://github.com/NANDILLONMaxence/Docker/blob/db4a828aa55670b3ec9f07375529b8668c5464ca/001_Install_Docker_v1.sh
+curl -LO [ file link 001_Install_Docker_v1.sh ]
