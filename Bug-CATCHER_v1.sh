@@ -9,29 +9,31 @@ apt update -y && apt upgrade -y
   # - Assurez-vous d'avoir les paquets requis pour votre distribution (Linux)
 
 # curl :
-apt install curl 
+apt install -y curl 
 # Certificates :
 apt install -y apt-transport-https ca-certificates curl
 
 # propriétés-logicielles-communes:
-apt install software-properties-common
+apt install -y software-properties-common
 
 # Étape 3 : Ajoutez le packet gpg
   # Outil qui permet de chiffrer/déchiffrer mais aussi de signer 
-apt install gnupg
-apt install gpg
+apt install -y gnupg
+apt install -y gpg
 
 
 echo "------------------------------------ Version 1 -----------------------------------------"
-					           echo ".-.       _.---._ __  / \
-								 /  )    .-'        './ /   \
-								(  (   .'            '/    /|
-								 \  '-"             \'\   / |
-								  '.              .  \ \ /  |
-								   /'.          .'-'----Y   |
-								  (            ;        |   '
-								  |  .-.    .-'         |  /
-								  |  | (   |   Box bug  | /
-								  )  |  \  '.___________|/
-								  '--'   '--'"
+							echo "           ___"
+							echo "    ,_    '---'    _,"
+							echo "    \ \`-._|\\_/|_.-' /"
+							echo "     |   =)'T'(=   |"
+							echo "      \   /\`\"\"\`\\   /"
+							echo "       '._\\) (/_.'"
+							echo "           | |"
+							echo "          /\\ /\\"
+							echo "          \\ T /"
+							echo "          (/ \\)"
+							echo "               ))"
+							echo "              (("
+							echo "               \\)"
 echo "----------------------------Create by NANDILLON Maxence---------------------------------"
