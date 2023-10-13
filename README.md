@@ -12,6 +12,8 @@ Ready to simplify your Docker installation process? Let's dive into the world of
 
 # Bug catcher :
  - Bug-CATCHER_v1
+ Command control :
+curl -O 
 
 # Installing Docker : 
  - 001_Install_Docker_v1.sh
