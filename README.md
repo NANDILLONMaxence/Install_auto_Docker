@@ -15,3 +15,5 @@ Ready to simplify your Docker installation process? Let's dive into the world of
 
 # Installing Docker : 
  - 001_Install_Docker_v1.sh
+   - docker status check : sudo systemctl status docker
+     
