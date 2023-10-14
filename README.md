@@ -1,4 +1,4 @@
-# Docker
+# install auto Docker
 Docker-BTS-SIO-SISR
 
 Welcome to my Github repository dedicated to automating the installation of Docker, an essential technology for container management. Here you'll find a set of scripts and resources designed to simplify and speed up the process of installing Docker on various platforms (Mainly Linux). Whether you're a developer, a system administrator or a container enthusiast, this repository aims to make Docker setup easier, saving you time and effort.
