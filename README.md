@@ -15,4 +15,20 @@ Ready to simplify your Docker installation process? Let's dive into the world of
 # Installing Docker : 
  - 001_Install_Docker_v1.sh
    - docker status check : sudo systemctl status docker
+ 
+# Install Docker compose on Docker [ En cours ]
+ - 003_Install_docker-compose_v1
+   - docker-compose status check : ######
+  
+# Install Graylog on Docker [ En cours ]
+ - 003_Install_Graylog_v1
+   - Graylog container status : docker ps -a --filter "name=nom_du_conteneur_graylog"
+ 
+# Install OnlyOffice on Docker [ En cours ]
+ - 004_Install_OnlyOffice_v1
+   - OnlyOffice container status : docker ps -a --filter "name=nom_du_conteneur_OnlyOffice"
+  
+# Install GLPI on Docker [ En cours ]
+ - 005_Install_GLPI_v1
+   - GLPI container status : docker ps -a --filter "name=nom_du_conteneur_GLPI"
      
