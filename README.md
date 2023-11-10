@@ -16,11 +16,11 @@ Ready to simplify your Docker installation process? Let's dive into the world of
  - 001_Install_Docker_v1.sh
    - docker status check : sudo systemctl status docker
  
-# Install Docker compose on Docker [ En cours ]
+# Install Docker compose [ En cours ]
  - 003_Install_docker-compose_v1
    - docker-compose status check : ######
   
-# Install Graylog on Docker [ En cours ]
+# Install Graylog on Docker compose [ En cours ]
  - 003_Install_Graylog_v1
    - Graylog container status : docker ps -a --filter "name=nom_du_conteneur_graylog"
  
