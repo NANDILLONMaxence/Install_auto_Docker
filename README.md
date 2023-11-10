@@ -15,7 +15,7 @@ Ready to simplify your Docker installation process? Let's dive into the world of
  - [Bug-CATCHER](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/000_Bug-CATCHER.sh)
 
 # Installing Docker : 
- - [001_Install_Docker.sh](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/001_Install_Docker.sh)
+ - [001_Install_Docker](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/001_Install_Docker.sh)
    - docker status check : sudo systemctl status docker
  
 # Install Docker compose [ En cours ]
