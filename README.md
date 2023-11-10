@@ -8,6 +8,8 @@ Feel free to explore the scripts and guides provided in this repository to get s
 
 Ready to simplify your Docker installation process? Let's dive into the world of automation!
 
+# Error log :
+ - ERROR-LOG
 
 # Bug catcher :
  - Bug-CATCHER
