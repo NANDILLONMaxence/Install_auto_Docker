@@ -8,18 +8,18 @@ Feel free to explore the scripts and guides provided in this repository to get s
 
 Ready to simplify your Docker installation process? Let's dive into the world of automation!
 
-# Error log :
- - ERROR_LOG
+# [Error log] :
+ - [ERROR_LOG](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/ERROR_LOG.md)
 
 # Bug catcher :
- - Bug-CATCHER
+ - [Bug-CATCHER](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/000_Bug-CATCHER.sh)
 
 # Installing Docker : 
- - 001_Install_Docker.sh
+ - [001_Install_Docker.sh](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/001_Install_Docker.sh)
    - docker status check : sudo systemctl status docker
  
 # Install Docker compose [ En cours ]
- - 003_Install_docker-compose
+ - [003_Install_docker-compose]()
    - docker-compose status check : ######
   
 # Install Graylog on Docker compose [ En cours ]
