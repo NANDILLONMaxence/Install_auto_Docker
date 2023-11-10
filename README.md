@@ -8,7 +8,7 @@ Feel free to explore the scripts and guides provided in this repository to get s
 
 Ready to simplify your Docker installation process? Let's dive into the world of automation!
 
-# [Error log] :
+# Error log :
  - [ERROR_LOG](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/ERROR_LOG.md)
 
 # Bug catcher :
