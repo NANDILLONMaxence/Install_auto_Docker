@@ -10,25 +10,25 @@ Ready to simplify your Docker installation process? Let's dive into the world of
 
 
 # Bug catcher :
- - Bug-CATCHER_v1
+ - Bug-CATCHER
 
 # Installing Docker : 
- - 001_Install_Docker_v1.sh
+ - 001_Install_Docker.sh
    - docker status check : sudo systemctl status docker
  
 # Install Docker compose [ En cours ]
- - 003_Install_docker-compose_v1
+ - 003_Install_docker-compose
    - docker-compose status check : ######
   
 # Install Graylog on Docker compose [ En cours ]
- - 003_Install_Graylog_v1
+ - 003_Install_Graylog
    - Graylog container status : docker ps -a --filter "name=nom_du_conteneur_graylog"
  
 # Install OnlyOffice on Docker [ En cours ]
- - 004_Install_OnlyOffice_v1
+ - 004_Install_OnlyOffice
    - OnlyOffice container status : docker ps -a --filter "name=nom_du_conteneur_OnlyOffice"
   
 # Install GLPI on Docker [ En cours ]
- - 005_Install_GLPI_v1
+ - 005_Install_GLPI
    - GLPI container status : docker ps -a --filter "name=nom_du_conteneur_GLPI"
      
