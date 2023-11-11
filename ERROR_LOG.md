@@ -1,53 +1,52 @@
-# Rapport d'Erreurs dans les Sources APT
+# APT Sources Error Report
 
-W: La cible Packages (stable/binary-amd64/Packages) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Packages (stable/binary-all/Packages) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Translations (stable/i18n/Translation-fr_FR) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Translations (stable/i18n/Translation-fr) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-Tous les paquets sont à jour.
-W: La cible Packages (stable/binary-amd64/Packages) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Packages (stable/binary-all/Packages) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Translations (stable/i18n/Translation-fr_FR) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Translations (stable/i18n/Translation-fr) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Translations (stable/i18n/Translation-en) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Packages (stable/binary-amd64/Packages) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Packages (stable/binary-all/Packages) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Translations (stable/i18n/Translation-fr_FR) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Translations (stable/i18n/Translation-fr) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/sources.list.d/docker.list:1
-W: La cible Translations (stable/i18n/Translation-en) est spécifiée plusieurs fois dans /etc/apt/sources.list:21 et /etc/apt/source
+W: The target Packages (stable/binary-amd64/Packages) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Packages (stable/binary-all/Packages) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Translations (stable/i18n/Translation-fr_FR) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Translations (stable/i18n/Translation-fr) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+All packages are up to date.
+W: The target Packages (stable/binary-amd64/Packages) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Packages (stable/binary-all/Packages) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Translations (stable/i18n/Translation-fr_FR) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Translations (stable/i18n/Translation-fr) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Translations (stable/i18n/Translation-en) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Packages (stable/binary-amd64/Packages) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Packages (stable/binary-all/Packages) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Translations (stable/i18n/Translation-fr_FR) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Translations (stable/i18n/Translation-fr) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
+W: The target Translations (stable/i18n/Translation-en) is specified multiple times in /etc/apt/sources.list:21 and /etc/apt/sources.list.d/docker.list:1
 
-## Problème Identifié
+## Identified Issue
 
-Lors de l'exécution de la commande `sudo apt update`, plusieurs avertissements ont été générés, indiquant que certaines cibles dans les fichiers de sources sont spécifiées plusieurs fois. Les erreurs comprennent des duplications dans les cibles Packages (stable/binary-amd64/Packages, stable/binary-all/Packages) et Translations (stable/i18n/Translation-fr_FR, stable/i18n/Translation-fr, stable/i18n/Translation-en).
-Cela est dû à l'ajout des dépôts APT dans l'installation de Docker.
+When running the `sudo apt update` command, several warnings were generated, indicating that certain targets in the source files are specified multiple times. The errors include duplications in the targets Packages (stable/binary-amd64/Packages, stable/binary-all/Packages) and Translations (stable/i18n/Translation-fr_FR, stable/i18n/Translation-fr, stable/i18n/Translation-en). This is due to the addition of APT repositories in the Docker installation.
 
-## Localisation des Erreurs
+## Error Location
 
-Les duplicatas ont été détectés dans les fichiers `/etc/apt/sources.list` à la ligne 21 et dans le fichier `/etc/apt/sources.list.d/docker.list` à la ligne 1.
+The duplicates have been detected in the files `/etc/apt/sources.list` at line 21 and in the file `/etc/apt/sources.list.d/docker.list` at line 1.
 
-## Actions Recommandées
+## Recommended Actions
 
-1. **Correction dans /etc/apt/sources.list :**
-   - Utiliser la commande suivante pour ajouter un '#' à la ligne 21 de `/etc/apt/sources.list` :
+1. **Fix in /etc/apt/sources.list:**
+   - Use the following command to add a '#' to line 21 of `/etc/apt/sources.list`:
      ```bash
      sudo sed -i '21s/^/#/' /etc/apt/sources.list
      ```
-   - Cela commentera la ligne 21, résolvant ainsi la duplication des cibles.
+   - This will comment out line 21, resolving the duplication of targets.
 
-2. **Correction dans /etc/apt/sources.list.d/docker.list :**
-   - Utiliser la commande suivante pour ajouter un '#' à la ligne 1 de `/etc/apt/sources.list.d/docker.list` :
+2. **Fix in /etc/apt/sources.list.d/docker.list:**
+   - Use the following command to add a '#' to line 1 of `/etc/apt/sources.list.d/docker.list`:
      ```bash
      sudo sed -i '1s/^/#/' /etc/apt/sources.list.d/docker.list
      ```
-   - Cela commentera la première ligne du fichier, éliminant la duplication des cibles.
+   - This will comment out the first line of the file, eliminating the duplication of targets.
 
-3. **Mise à Jour des Sources :**
-   - Après les corrections, exécuter la commande suivante pour mettre à jour la liste des paquets :
+3. **Update Sources:**
+   - After the fixes, run the following command to update the package list:
      ```bash
      sudo apt update
      ```
-   - Cela garantit que les modifications sont prises en compte.
+   - This ensures that the changes are taken into account.
 
-*Ces actions devraient résoudre les erreurs détectées lors de la mise à jour du système.*
+*These actions should resolve the errors detected during the system update.*
 
-Veuillez noter que ces commandes modifient directement les fichiers système. Assurez-vous d'avoir une sauvegarde appropriée avant de les exécuter.
+Please note that these commands directly modify system files. Ensure you have appropriate backups before executing them.
