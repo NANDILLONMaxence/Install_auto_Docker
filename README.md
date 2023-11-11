@@ -14,23 +14,23 @@ Ready to simplify your Docker installation process? Let's dive into the world of
 # Bug catcher :
  - [Bug-CATCHER](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/000_Bug-CATCHER.sh)
 
-# Installing Docker : 
+# Installing auto Docker : 
  - [001_Install_Docker](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/001_Install_Docker.sh)
    - docker status check : sudo systemctl status docker
  
-# Install Docker compose [ En cours ]
+# Installing auto Docker compose [ En cours ]
  - [002_Install_docker-compose](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/002_Docker_compose.sh)
-   - docker-compose status check : ######
+   - docker-compose status check : Docker ps -a
   
-# Install Graylog on Docker compose [ En cours ]
+# Install Graylog with Docker compose [ En cours ]
  - 003_Install_Graylog
    - Graylog container status : docker ps -a --filter "name=nom_du_conteneur_graylog"
  
-# Install OnlyOffice on Docker [ En cours ]
+# Install OnlyOffice with Docker [ En cours ]
  - 004_Install_OnlyOffice
    - OnlyOffice container status : docker ps -a --filter "name=nom_du_conteneur_OnlyOffice"
   
-# Install GLPI on Docker [ En cours ]
+# Install GLPI with Docker [ En cours ]
  - 005_Install_GLPI
    - GLPI container status : docker ps -a --filter "name=nom_du_conteneur_GLPI"
      
