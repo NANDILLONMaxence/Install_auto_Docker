@@ -18,11 +18,11 @@ Ready to simplify your Docker installation process? Let's dive into the world of
  - [001_Install_Docker](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/001_Install_Docker.sh)
    - docker status check : sudo systemctl status docker
  
-# Installing auto Docker compose [ En cours ]
+# Installing auto Docker compose :
  - [002_Install_docker-compose](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/002_Docker_compose.sh)
    - docker-compose status check : Docker ps -a
   
-# Install Graylog with Docker compose [ En cours ]
+# Install Graylog with Docker compose :
  - 003_Install_Graylog
    - Graylog container status : docker ps -a --filter "name=nom_du_conteneur_graylog"
  
