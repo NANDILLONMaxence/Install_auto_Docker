@@ -178,3 +178,27 @@ docker ps
 
 # Access the Graylog Web UI
 echo "Now open the Graylog web interface using the URL http://IP_address:9000."
+
+# Fonction pour vérifier si un dossier existe
+check_directory() {
+    if [ -d "$1" ]; then
+        echo "$1"
+    else
+        echo "Error : The folder $1 does not existe on your machine."
+        exit 1
+    fi
+}
+
+# Chercher les chemins des dossiers spécifiés
+mongo_data=$(check_directory "/mongo_data")
+es_data=$(check_directory "/es_data")
+graylog_journal=$(check_directory "/graylog_journal")
+
+# Modifie le message en remplaçant les [...]
+message="Think about modifying the folder permissions, if necessary  :
+- MongoDB Data : $mongo_data
+- Elasticsearch Data : $es_data
+- Graylog Journal : $graylog_journal"
+
+# Envoi du message
+echo "$message"
