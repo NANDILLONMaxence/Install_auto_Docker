@@ -13,4 +13,5 @@ apt update
 docker-compose --version
 
 # Étape 5 : Teste docker avec le container Hello World
-docker run hello-world
+echo "if you want to test the installation start the Hello World container"
+echo "docker run hello-world"
