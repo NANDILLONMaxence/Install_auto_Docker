@@ -202,3 +202,4 @@ message="Think about modifying the folder permissions, if necessary  :
 
 # Envoi du message
 echo "$message"
+echo "----------------------------Create by NANDILLON Maxence---------------------------------"
