@@ -27,7 +27,6 @@ Ready to simplify your Docker installation process? Let's dive into the world of
 # Install OnlyOffice with Docker [ En cours ]
  - 004_Install_OnlyOffice
   
-# Install GLPI with Docker [ En cours ]
- - [005_Install_GLPI](https://github.com/jr0w3/GLPI_install_script/tree/main)
-   - 
+# Install GLPI with Docker compose [ En cours ]
+ - [005_Install_GLPI](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/005_Install_GLPI.sh)
      
