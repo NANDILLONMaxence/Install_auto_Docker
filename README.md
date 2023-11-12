@@ -20,17 +20,14 @@ Ready to simplify your Docker installation process? Let's dive into the world of
  
 # Installing auto Docker compose :
  - [002_Install_docker-compose](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/002_Docker_compose.sh)
-   - docker-compose status check : Docker ps -a
   
 # Install Graylog with Docker compose :
  - [003_Install_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003_Install_Graylog.sh)
-   - Graylog container status : docker ps -a --filter "name=nom_du_conteneur_graylog"
  
 # Install OnlyOffice with Docker [ En cours ]
  - 004_Install_OnlyOffice
-   - OnlyOffice container status : docker ps -a --filter "name=nom_du_conteneur_OnlyOffice"
   
 # Install GLPI with Docker [ En cours ]
  - [005_Install_GLPI](https://github.com/jr0w3/GLPI_install_script/tree/main)
-   - GLPI container status : docker ps -a --filter "name=nom_du_conteneur_GLPI"
+   - 
      
