@@ -31,6 +31,6 @@ Ready to simplify your Docker installation process? Let's dive into the world of
    - OnlyOffice container status : docker ps -a --filter "name=nom_du_conteneur_OnlyOffice"
   
 # Install GLPI with Docker [ En cours ]
- - 005_Install_GLPI
+ - [005_Install_GLPI](https://github.com/jr0w3/GLPI_install_script/tree/main)
    - GLPI container status : docker ps -a --filter "name=nom_du_conteneur_GLPI"
      
