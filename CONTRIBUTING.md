@@ -32,3 +32,5 @@ https://github.com/jr0w3/docker-glpi
 
 https://github.com/jr0w3/GLPI_install_script/tree/main
 
+https://hub.docker.com/r/jr0w3/glpi
+
