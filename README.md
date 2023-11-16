@@ -22,8 +22,8 @@ Ready to simplify your Docker installation process? Let's dive into the world of
  - [002_Install_docker-compose](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/002_Install_Docker_compose.sh)
   
 # Install Graylog4.2 with Docker compose :
- - [003_Install_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003_Install_Graylog.sh)
-   
+ - [003-0_Install_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003-0_Install_Graylog.sh)
+ - [003-1_Send_logs_Rsyslog_on_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003-1_Send_logs_Rsyslog_on_Graylog.md)
  
 # Install OnlyOffice with Docker [ En cours ]
  - 004_Install_OnlyOffice
