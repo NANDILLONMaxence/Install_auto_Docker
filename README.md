@@ -19,10 +19,10 @@ Ready to simplify your Docker installation process? Let's dive into the world of
    - docker status check : sudo systemctl status docker
  
 # Installing auto Docker compose :
- - [002_Install_docker-compose](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/002_Docker_compose.sh)
+ - [002_Install_docker-compose](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/002_Install_Docker_compose.sh)
   
 # Install Graylog with Docker compose :
- - [003_Install_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/002_Install_Docker_compose.sh)
+ - [003_Install_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003_Install_Graylog.sh)
  
 # Install OnlyOffice with Docker [ En cours ]
  - 004_Install_OnlyOffice
