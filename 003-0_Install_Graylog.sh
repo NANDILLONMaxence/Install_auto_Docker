@@ -166,9 +166,9 @@ check_uri_update
  mkdir /graylog_journal
 
 # Set the right permissions:
- chmod 777 -R /mongo_data
- chmod 777 -R /es_data
- chmod 777 -R /graylog_journal
+ chmod 760 -R /mongo_data
+ chmod 760 -R /es_data
+ chmod 760 -R /graylog_journal
 
 # Exécutez le serveur Graylog dans les conteneurs Docker
 docker-compose up -d
