@@ -8,26 +8,26 @@ Feel free to explore the scripts and guides provided in this repository to get s
 
 Ready to simplify your Docker installation process? Let's dive into the world of automation!
 
-# Error log :
+## Error log :
  - [ERROR_LOG](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/ERROR_LOG.md)
 
-# Bug catcher :
+## Bug catcher :
  - [Bug-CATCHER](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/000_Bug-CATCHER.sh)
 
-# Installing auto Docker : 
+## Installing auto Docker : 
  - [001_Install_Docker](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/001_Install_Docker.sh)
    - docker status check : sudo systemctl status docker
  
-# Installing auto Docker compose :
+## Installing auto Docker compose :
  - [002_Install_docker-compose](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/002_Install_Docker_compose.sh)
   
-# Install Graylog4.2 with Docker compose :
+## Install Graylog4.2 with Docker compose :
  - [003-0_Install_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003-0_Install_Graylog.sh)
  - [003-1_Send_logs_Rsyslog_on_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003-1_Send_logs_Rsyslog_on_Graylog.md)
  
-# Install OnlyOffice with Docker [ En cours ]
+## Install OnlyOffice with Docker [ En cours ]
  - 004_Install_OnlyOffice
   
-# Install GLPI with Docker compose [ En cours ]
+## Install GLPI with Docker compose [ En cours ]
  - [005_Install_GLPI](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/005_Install_GLPI.sh)
      
