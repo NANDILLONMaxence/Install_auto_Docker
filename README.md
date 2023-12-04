@@ -14,7 +14,7 @@ Ready to simplify your Docker installation process? Let's dive into the world of
 ## Bug catcher :
  - [Bug-CATCHER](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/000_Bug-CATCHER.sh)
 
-## Installing auto Docker : 
+## Installing auto Docker Debian : 
  - [001_Install_Docker](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/001_Install_Docker.sh)
    - docker status check : sudo systemctl status docker
  
@@ -25,7 +25,7 @@ Ready to simplify your Docker installation process? Let's dive into the world of
  - [003-0_Install_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003-0_Install_Graylog.sh)
  - [003-1_Send_logs_Rsyslog_on_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003-1_Send_logs_Rsyslog_on_Graylog.md)
  
-## Install OnlyOffice with Docker [ En cours ]
+## Install OnlyOffice with Docker : 
  - 004_Install_OnlyOffice
   
 ## Install GLPI with Docker compose [ En cours ]
