@@ -4,7 +4,6 @@ check_docker_compose() {
     if command -v docker-compose &> /dev/null
     then
         echo "Docker Compose is already installed."
-        # Ajoutez ici les étapes supplémentaires du script
     else
         echo "Install Docker Compose before continuing."
 		# Installer Docker-compose
