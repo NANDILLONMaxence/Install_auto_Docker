@@ -25,9 +25,9 @@ Ready to simplify your Docker installation process? Let's dive into the world of
  - [003-0_Install_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003-0_Install_Graylog.sh)
  - [003-1_Send_logs_Rsyslog_on_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003-1_Send_logs_Rsyslog_on_Graylog.md)
  
-## Install OnlyOffice with Docker : 
+## Install OnlyOffice with Docker [ En cours ] : 
  - 004_Install_OnlyOffice
   
-## Install GLPI with Docker compose [ En cours ]
+## Install GLPI with Docker compose :
  - [005_Install_GLPI](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/005_Install_GLPI.sh)
      
