@@ -8,6 +8,8 @@ https://docs.docker.com/engine/install/
 
 https://pratiquepc.fr/installer-docker-sur-debian-10/
 
+https://docs.docker.com/engine/install/debian/
+
 Docker compose : 
 
 https://docs.docker.com/compose/install/
