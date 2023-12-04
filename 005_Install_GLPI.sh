@@ -115,8 +115,8 @@ check_password_update
 # Déploiement de glpi
 docker compose up -d
 
-# Access the Graylog Web UI
-echo "Now open the Graylog web interface using the URL http://IP_address:9000."
+# Access the GLPI Web UI
+echo "Now open the GLPI web interface using the URL http://IP_address:9000."
 
 # Fonction pour vérifier si un dossier existe
 check_directory() {
