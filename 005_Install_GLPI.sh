@@ -28,8 +28,9 @@ check_docker_compose
 
 # Création du répertoire glpi pour le conteneur glpi
 mkdir /glpi
+mkdir /glpi/db
+mkdir /glpi/data
 cd /glpi
-
 
 # Création du fichier de configuration glpi
 YML_CONTENT="version: '2'
