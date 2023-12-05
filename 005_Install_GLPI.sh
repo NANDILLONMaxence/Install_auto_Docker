@@ -117,7 +117,7 @@ check_password_update
 docker compose up -d
 
 # Access the GLPI Web UI
-echo "Now open the GLPI web interface using the URL http://IP_address:9000."
+echo "Now open the GLPI web interface using the URL http://IP_address:80."
 
 # Fonction pour vérifier si un dossier existe
 check_directory() {
