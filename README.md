@@ -30,4 +30,8 @@ Ready to simplify your Docker installation process? Let's dive into the world of
   
 ## Install GLPI with Docker compose :
  - [005_Install_GLPI](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/005_Install_GLPI.sh)
+
+---
+## Install Prometheus and graphana with Docker compose :
+ - [Repository_dockprom](https://github.com/NANDILLONMaxence/dockprom)
      
