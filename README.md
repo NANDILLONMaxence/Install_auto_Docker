@@ -7,30 +7,40 @@ Automating Docker installation is crucial to ensuring consistent configuration, 
 Feel free to explore the scripts and guides provided in this repository to get started quickly with Docker and take advantage of its benefits for application development, deployment and management. If you have any questions or suggestions, please don't hesitate to share them. We welcome your input and expertise.
 
 Ready to simplify your Docker installation process? Let's dive into the world of automation!
+## Install
 
+Clone repository Install_auto_docker on your Docker host:
+```bash
+git clone https://github.com/NANDILLONMaxence/Install_auto_Docker
+chmod +x Install_auto_Docker/*.sh
+cd Install_auto_Docker
+```
+
+launch the script
+```bash
+./000_Bug-CATCHER.sh
+```
+```bash
+./001_Install_Docker.sh
+```
+```bash
+./002_Install_Docker_compose.sh
+```
+```bash
+./003-0_Install_Graylog.sh
+```
+```bash
+./005_Install_GLPI.sh
+```
+---
 ## Error log :
  - [ERROR_LOG](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/ERROR_LOG.md)
 
 ## Bug catcher :
  - [Bug-CATCHER](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/000_Bug-CATCHER.sh)
-
-## Installing auto Docker Debian : 
- - [001_Install_Docker](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/001_Install_Docker.sh)
-   - docker status check : sudo systemctl status docker
- 
-## Installing auto Docker compose :
- - [002_Install_docker-compose](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/002_Install_Docker_compose.sh)
   
-## Install Graylog4.2 with Docker compose :
- - [003-0_Install_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003-0_Install_Graylog.sh)
+## Graylog4.2 Documentation with Docker compose :
  - [003-1_Send_logs_Rsyslog_on_Graylog](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/003-1_Send_logs_Rsyslog_on_Graylog.md)
- 
-## Install OnlyOffice with Docker [ En cours ] : 
- - 004_Install_OnlyOffice
-  
-## Install GLPI with Docker compose :
- - [005_Install_GLPI](https://github.com/NANDILLONMaxence/Install_auto_Docker/blob/main/005_Install_GLPI.sh)
-
 ---
 ## Install Prometheus and graphana with Docker compose :
  - [Repository_dockprom](https://github.com/NANDILLONMaxence/dockprom)
