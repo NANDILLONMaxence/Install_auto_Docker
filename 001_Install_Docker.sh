@@ -19,7 +19,7 @@ curl -fsSL https://download.docker.com/linux/debian/gpg | gpg --dearmor -o /usr/
 apt update -y && apt upgrade -y
 
 # Étape 7 : Installez Docker Engine
-apt install -y docker-ce docker-ce-cli containerd.io
+apt install -y docker-ce docker-ce-cli containerd.io  docker-buildx-plugin
 
 # Étape 8 : Démarrez le service Docker et activez-le pour qu'il démarre automatiquement
 systemctl start docker
