@@ -9,6 +9,9 @@ chmod +x /usr/local/bin/docker-compose
 # Étape 3 : Mettez à jour la liste de paquets
 apt update
 
+# Étape 3.1 : Ajout plugin 
+apt install -y docker-compose-plugin
+
 # Étape 4 : Vérifier l'installation
 docker-compose --version
 
